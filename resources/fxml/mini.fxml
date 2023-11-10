@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#windowWasClicked" prefHeight="562.0" prefWidth="600.0" style="-fx-background-color: black; -fx: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MiniController">
+   <top>
+      <HBox alignment="CENTER" prefHeight="84.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="80.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets right="50.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@../../../../../recursos_ejercicios1_j/imagenes/cooperLogo.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="CONFIGURA TU MINI COOPER" textAlignment="CENTER" />
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <VBox alignment="CENTER" prefHeight="82.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Elige tu color favorito" />
+            <GridPane alignment="CENTER" prefHeight="53.0" prefWidth="491.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fx:id="BlazingRed" fitHeight="47.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/colores/colorBlazingRed.jpg" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="12.0" right="12.0" top="5.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="ElectricBlue" fitHeight="47.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../img/colores/colorElectricBlue.jpg" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="12.0" right="12.0" top="5.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="LapisluxuryBlue" fitHeight="47.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../img/colores/colorLapisluxuryBlue.jpg" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="12.0" right="12.0" top="5.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="MidnightBlack" fitHeight="47.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../img/colores/colorMidnightBlack.jpg" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="12.0" right="12.0" top="5.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="MoonwalkGrey" fitHeight="47.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../img/colores/colorMoonwalkGrey.jpg" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="12.0" right="12.0" top="5.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="PepperWhite" fitHeight="47.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5">
+                     <image>
+                        <Image url="@../img/colores/colorPepperWhite.jpg" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="12.0" right="12.0" top="5.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="VolcaninOrange" fitHeight="47.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7">
+                     <image>
+                        <Image url="@../img/colores/colorVolcaninOrange.jpg" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="12.0" right="12.0" top="5.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="ThunderGray" fitHeight="47.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6">
+                     <image>
+                        <Image url="@../img/colores/colorThunderGray.jpg" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="12.0" right="12.0" top="5.0" />
+                     </GridPane.margin>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </GridPane>
+         </children>
+      </VBox>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="mini" fitHeight="403.0" fitWidth="600.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/coches/miniBlazingRed.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lightImageView" fitHeight="403.0" fitWidth="600.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/autoLuz.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lightButton" fitHeight="32.0" fitWidth="35.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/lucesOff.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
